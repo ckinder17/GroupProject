@@ -1,4 +1,22 @@
+""" PLAIN ENGLISH
+start
 
+User will be prompted to enter a sentence.
+Using a letter dictionary we will add a value of one to each different letter in the sentence.
+One will be added to every reoccuring letter.
+We then display the frequency of letters in that sentence in order of the most frequent.
+We will not show values of zero and remove them from the sorted list.
+
+end
+"""
+
+""" PSUDOCODE
+Enter a sentence:
+For all letters A - Z, += 1
+Display Sorted List
+Sort Letter List key = f, reverse = true
+If letter frequency != 0, show them on list
+"""
 
 def main():
     sentence = input("Enter a sentence: ")
